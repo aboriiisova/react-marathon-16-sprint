@@ -1,10 +1,10 @@
 import './App.css';
-import Home from './Home';
-import Users from './Users';
-import User from './User';
-import About from './About';
+import Home from './components/Home';
+import Users from './components/Users';
+import User from './components/User';
+import About from './components/About';
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
